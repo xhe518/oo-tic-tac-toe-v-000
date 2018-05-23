@@ -148,7 +148,7 @@ class TicTacToe
     end
 
     if won? != false
-      puts "Congratulations #{winner(@board)}!"
+      puts "Congratulations #{winner}!"
     elsif draw? == true
       puts "Cat's Game!"
     end
