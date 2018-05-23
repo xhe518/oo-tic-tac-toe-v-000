@@ -147,7 +147,6 @@ class TicTacToe
       turn
     end
 
-
     if won? != false
       puts "Congratulations #{winner(@board)}!"
     elsif draw? == true
